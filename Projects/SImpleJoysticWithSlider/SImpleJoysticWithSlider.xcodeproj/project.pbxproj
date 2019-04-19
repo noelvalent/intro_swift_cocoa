@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59C012AC2269C75D00B0EFCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C012AB2269C75D00B0EFCB /* AppDelegate.swift */; };
+		59C012AE2269C75D00B0EFCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C012AD2269C75D00B0EFCB /* ViewController.swift */; };
+		59C012B02269C75D00B0EFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C012AF2269C75D00B0EFCB /* Assets.xcassets */; };
+		59C012B32269C75D00B0EFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C012B12269C75D00B0EFCB /* Main.storyboard */; };
+		59C012BD2269C9AE00B0EFCB /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C012BB2269C9AE00B0EFCB /* ball.png */; };
+		59C012BE2269C9AE00B0EFCB /* direction.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C012BC2269C9AE00B0EFCB /* direction.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59C012A82269C75D00B0EFCB /* SImpleJoysticWithSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SImpleJoysticWithSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C012AB2269C75D00B0EFCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59C012AD2269C75D00B0EFCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59C012AF2269C75D00B0EFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59C012B22269C75D00B0EFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59C012B42269C75D00B0EFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C012B52269C75D00B0EFCB /* SImpleJoysticWithSlider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SImpleJoysticWithSlider.entitlements; sourceTree = "<group>"; };
+		59C012BB2269C9AE00B0EFCB /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		59C012BC2269C9AE00B0EFCB /* direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = direction.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59C012A52269C75D00B0EFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59C0129F2269C75D00B0EFCB = {
+			isa = PBXGroup;
+			children = (
+				59C012AA2269C75D00B0EFCB /* SImpleJoysticWithSlider */,
+				59C012A92269C75D00B0EFCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59C012A92269C75D00B0EFCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59C012A82269C75D00B0EFCB /* SImpleJoysticWithSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59C012AA2269C75D00B0EFCB /* SImpleJoysticWithSlider */ = {
+			isa = PBXGroup;
+			children = (
+				59C012AB2269C75D00B0EFCB /* AppDelegate.swift */,
+				59C012AD2269C75D00B0EFCB /* ViewController.swift */,
+				59C012AF2269C75D00B0EFCB /* Assets.xcassets */,
+				59C012B12269C75D00B0EFCB /* Main.storyboard */,
+				59C012B42269C75D00B0EFCB /* Info.plist */,
+				59C012B52269C75D00B0EFCB /* SImpleJoysticWithSlider.entitlements */,
+				59C012BB2269C9AE00B0EFCB /* ball.png */,
+				59C012BC2269C9AE00B0EFCB /* direction.png */,
+			);
+			path = SImpleJoysticWithSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59C012A72269C75D00B0EFCB /* SImpleJoysticWithSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C012B82269C75D00B0EFCB /* Build configuration list for PBXNativeTarget "SImpleJoysticWithSlider" */;
+			buildPhases = (
+				59C012A42269C75D00B0EFCB /* Sources */,
+				59C012A52269C75D00B0EFCB /* Frameworks */,
+				59C012A62269C75D00B0EFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SImpleJoysticWithSlider;
+			productName = SImpleJoysticWithSlider;
+			productReference = 59C012A82269C75D00B0EFCB /* SImpleJoysticWithSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59C012A02269C75D00B0EFCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Noel Valentine";
+				TargetAttributes = {
+					59C012A72269C75D00B0EFCB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 59C012A32269C75D00B0EFCB /* Build configuration list for PBXProject "SImpleJoysticWithSlider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59C0129F2269C75D00B0EFCB;
+			productRefGroup = 59C012A92269C75D00B0EFCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59C012A72269C75D00B0EFCB /* SImpleJoysticWithSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59C012A62269C75D00B0EFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C012B02269C75D00B0EFCB /* Assets.xcassets in Resources */,
+				59C012BE2269C9AE00B0EFCB /* direction.png in Resources */,
+				59C012B32269C75D00B0EFCB /* Main.storyboard in Resources */,
+				59C012BD2269C9AE00B0EFCB /* ball.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59C012A42269C75D00B0EFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C012AE2269C75D00B0EFCB /* ViewController.swift in Sources */,
+				59C012AC2269C75D00B0EFCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59C012B12269C75D00B0EFCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59C012B22269C75D00B0EFCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59C012B62269C75D00B0EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59C012B72269C75D00B0EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		59C012B92269C75D00B0EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SImpleJoysticWithSlider/SImpleJoysticWithSlider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 96QTZGRMR9;
+				INFOPLIST_FILE = SImpleJoysticWithSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pncss.SImpleJoysticWithSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		59C012BA2269C75D00B0EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SImpleJoysticWithSlider/SImpleJoysticWithSlider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 96QTZGRMR9;
+				INFOPLIST_FILE = SImpleJoysticWithSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pncss.SImpleJoysticWithSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59C012A32269C75D00B0EFCB /* Build configuration list for PBXProject "SImpleJoysticWithSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C012B62269C75D00B0EFCB /* Debug */,
+				59C012B72269C75D00B0EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59C012B82269C75D00B0EFCB /* Build configuration list for PBXNativeTarget "SImpleJoysticWithSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59C012B92269C75D00B0EFCB /* Debug */,
+				59C012BA2269C75D00B0EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59C012A02269C75D00B0EFCB /* Project object */;
+}
